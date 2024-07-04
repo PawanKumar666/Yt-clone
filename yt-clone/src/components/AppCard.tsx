@@ -1,14 +1,18 @@
+import SearchBar from "./SearchBar";
+import SignInAppCard from "./SignInAppCard";
+import YouTubeIconSection from "./YouTubeIconSection";
+
 export default function AppCard(){
     return (
         <div className="flex justify-between">
             <div>
-                YouTube
+                <YouTubeIconSection />
             </div>
             <div>
-                Search
+                <SearchBar />
             </div>
             <div>
-                SignIn
+                <SignInAppCard />
             </div>
         </div>
     )
