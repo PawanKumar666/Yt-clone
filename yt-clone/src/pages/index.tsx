@@ -1,5 +1,5 @@
-import VideoGrid from "@/components/VideoGrid";
-import AppCard from "@/components/AppCard"
+import VideoGrid from "@/components/VideoGrid/VideoGrid";
+import AppCard from "@/components/AppCard/AppCard"
 export default function Home() {
   return (
     <>
