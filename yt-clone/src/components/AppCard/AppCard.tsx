@@ -4,7 +4,7 @@ import YouTubeIconSection from "./YouTubeIconSection";
 
 export default function AppCard(){
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between p-5">
             <div>
                 <YouTubeIconSection />
             </div>
