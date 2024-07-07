@@ -1,7 +1,7 @@
 export default function SignInAppCard(){
     return (
         <div>
-            SignIn
+            Sign in
         </div>
     )
 }

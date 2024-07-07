@@ -92,6 +92,7 @@ const VIDEOS = [{
 ]
 
 export default function VideoGrid(){
+    // Grid section displaying videos
     return (
         <div className="grid grid-cols-4 p-6">
         {VIDEOS.map((video) => { 
