@@ -1,4 +1,4 @@
-export default function VideoCard(props){
+export default function VideoCard(props: any){
     return (
         <div>
             <img src={props.thumbnail} className="rounded-xl"></img>
